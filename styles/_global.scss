@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Space Mono", monospace;;
+}
+body{
+    background-image: linear-gradient(-70deg, #1a0f3e 53%,#6457c6 100%);
+    display: flex;
+}
+#container{
+
+    width: 100%;
+    max-height: 10%;
+}

@@ -1,0 +1,39 @@
+#verticalNav{
+    height: 100vh;
+    width: 15rem;
+    background: rgba($color: #000000, $alpha: 0.06);
+    position: sticky;
+    top: 0px;
+    .icones{
+        min-height: 70vh;
+        @include flex(center,center,column);
+        i{
+            margin: 0.5rem;
+            color: #d2ceec;
+            height: 6rem;
+            width: 15rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover{
+                background: rgba($color: #030b34, $alpha: 0.025);
+                color: #f7ff09;
+            }
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+#logo{
+    height: 8rem;
+    width: 15rem;
+    margin: 1rem;
+    a{
+        color: rgb(28, 174, 185);
+        font-size: 3rem;
+        text-decoration: none;
+    }
+}

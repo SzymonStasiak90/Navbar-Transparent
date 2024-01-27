@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-image: linear-gradient(-70deg, #1a0f3e 53%, #6457c6 100%);
+  display: flex;
+}
+
+#container {
+  width: 100%;
+  max-height: 10%;
+}
+
+#hero {
+  z-index: 0;
+  height: 100vh;
+  width: 100%;
+}
+#hero #scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+}
+#hero #scroll a {
+  text-decoration: none;
+  font-size: large;
+  color: #deee01;
+}
+#hero #scroll i {
+  margin: 1rem;
+}
+#hero #scroll:hover {
+  color: red;
+}
+#hero #typingAnimation {
+  position: absolute;
+  top: 35vh;
+  left: 25vh;
+  z-index: 1;
+}
+#hero h1 {
+  font-size: 7rem;
+  color: #e80fe8;
+}
+#hero h2 {
+  font-size: 4.5rem;
+  color: #0ecda0;
+}
+#hero button {
+  height: 5rem;
+  width: 15rem;
+  background: none;
+  margin: 3rem 1rem 0rem 0rem;
+  border-radius: 0.5rem;
+  border: 0.1rem dotted #0ecda0;
+  font-size: 1.7rem;
+  font-weight: 550;
+  font-family: "Space Mono", monospace;
+  color: #0ecda0;
+}
+#hero button:hover {
+  color: #e80fe8;
+  border: 0.1rem dotted #deee01;
+  background-color: #deee01;
+}
+
+#verticalNav {
+  height: 100vh;
+  width: 15rem;
+  background: rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0px;
+}
+#verticalNav .icones {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#verticalNav .icones i {
+  margin: 0.5rem;
+  color: #d2ceec;
+  height: 6rem;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#verticalNav .icones i:hover {
+  background: rgba(3, 11, 52, 0.025);
+  color: #f7ff09;
+}
+#verticalNav .icones a {
+  text-decoration: none;
+}
+
+#logo {
+  height: 8rem;
+  width: 15rem;
+  margin: 1rem;
+}
+#logo a {
+  color: rgb(28, 174, 185);
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  max-width: 88%;
+  top: 0;
+  bottom: 0;
+  left: 15rem;
+  right: 0;
+  z-index: -1;
+}
+
+#aboutMe {
+  /*background-color: aqua;*/
+  height: 100vh;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+}
+#aboutMe #aboutMeContent {
+  /*background-color: brown;*/
+  height: 60%;
+  width: 50%;
+  margin-top: 9rem;
+  margin-left: 10rem;
+  padding: 1rem;
+  text-align: justify;
+  padding-right: 10%;
+}
+#aboutMe #aboutMeContent h2 {
+  font-size: 2.2rem;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  color: aquamarine;
+}
+#aboutMe #aboutMeContent h3 {
+  font-size: 3.6rem;
+  margin: 1rem;
+}
+#aboutMe #aboutMeContent p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+#aboutMe #aboutMeButtons {
+  /*background-color: green;*/
+  height: 60%;
+  width: 50%;
+  margin-top: 10rem;
+  margin-right: 1rem;
+  display: block;
+}
+#aboutMe #aboutMeButtons button {
+  height: 2rem;
+  width: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 1.9rem;
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  color: aquamarine;
+}
+#aboutMe #aboutMeButtons button:hover {
+  color: rgb(255, 0, 208);
+}
+#aboutMe #aboutMeButtons ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+}
+#aboutMe #aboutMeButtons ul li {
+  float: left;
+}
+#aboutMe #aboutMeButtons ul li i {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+}
+#aboutMe #aboutMeButtons ul li i:hover {
+  color: #f4f25d;
+}
+#aboutMe #aboutMeButtons ul li p {
+  font-size: 2.2rem;
+  padding: 1.5rem;
+}
+#aboutMe #aboutMeButtons ul #disabled {
+  pointer-events: none;
+}
+
+#myProjects {
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+#contactMe {
+  background-color: chartreuse;
+  height: 100vh;
+}
+
+footer {
+  background-color: brown;
+}/*# sourceMappingURL=style.css.map */
